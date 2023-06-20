@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: #456392;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 248px;
+    height: 100vh;
+    background: #253A5C;
+}
+
+.sidebar hr {
+    width: 216px;
+    height: 0px;
+    border: 1px solid #969090;
+    margin-bottom: 640px;
+    transform: rotate(-0.27deg);
+}
+
+.sidebar img {
+    width: 100px;
+    height: 100px;
+    margin: 32px 74px;
+}
+   
+
+.logout-button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 216px;
+   height: 64px;
+   margin-bottom: 31px;
+   border-radius: 10px;
+   cursor: pointer;
+   background: #41AF1A;
+}
+
+.logout-button span a {
+   display: flex;
+   text-decoration: none;
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 28px;
+   color: #ffff;
+}
+
+.title h1{
+    width: 100%;
+    margin-bottom: 52px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 55px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 350px 48px 315px;
+    cursor: pointer;
+}
+
+.profile-card img{
+    width: 108.75px;
+    height: 129.64px;
+    border-radius: 50%;
+    margin-top: 12px;
+    margin-bottom: 25px;
+    padding: 5px;
+    background-color: #83d366;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 231.29px;
+    height: 352px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    background: #FFFFFF;
+}
+
+.profile-card strong {
+    margin-bottom: 7px;
+    text-align: center;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #131E30;
+}
+
+.profile-card span{
+   text-align: center;
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 23px;
+   color: #131E30;
+}
+.info-1  {
+    margin-top: 59px;
+}
+
+.profile-card p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
